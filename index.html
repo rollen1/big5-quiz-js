@@ -14,9 +14,13 @@
 
 </head>
 
-<body class="bg-secondary text-light">
+<body class="bg-light">
 
-    <div class="pt-5 container d-flex justify-content-center">
+    <header>
+        <h1 class="py-2 text-center">Big5 Quiz</h1>
+    </header>
+
+    <div id="quiz" class="pt-5 container d-flex justify-content-center">
         <div class="table-responsive-sm">
             <table class="table table-dark" style="width: auto">
 
@@ -32,49 +36,211 @@
                 </thead>
 
                 <tbody class="text-center">
-
+                    <!-- Openness -->
                     <tr>
                         <th>I have a rich vocabulary.</th>
-                        <td><input name="o1" id="o1" type="radio" value="4" /></td>
-                        <td><input name="o1" id="o1" type="radio" value="3" /></td>
-                        <td><input name="o1" id="o1" type="radio" value="2" /></td>
-                        <td><input name="o1" id="o1" type="radio" value="1" /></td>
-                        <td><input name="o1" id="o1" type="radio" value="0" /></td>
+                        <td><input name="o1" type="radio" value="4" /></td>
+                        <td><input name="o1" type="radio" value="3" /></td>
+                        <td><input name="o1" type="radio" value="2" /></td>
+                        <td><input name="o1" type="radio" value="1" /></td>
+                        <td><input name="o1" type="radio" value="0" /></td>
                     </tr>
                     <tr>
                         <th>I have a vivid imagination.</th>
-                        <td><input name="o2" id="o2" type="radio" value="4" /></td>
-                        <td><input name="o2" id="o2" type="radio" value="3" /></td>
-                        <td><input name="o2" id="o2" type="radio" value="2" /></td>
-                        <td><input name="o2" id="o2" type="radio" value="1" /></td>
-                        <td><input name="o2" id="o2" type="radio" value="0" /></td>
+                        <td><input name="o2" type="radio" value="4" /></td>
+                        <td><input name="o2" type="radio" value="3" /></td>
+                        <td><input name="o2" type="radio" value="2" /></td>
+                        <td><input name="o2" type="radio" value="1" /></td>
+                        <td><input name="o2" type="radio" value="0" /></td>
                     </tr>
                     <tr>
                         <th>I generate excellent ideas.</th>
-                        <td><input name="o3" id="o3" type="radio" value="4" /></td>
-                        <td><input name="o3" id="o3" type="radio" value="3" /></td>
-                        <td><input name="o3" id="o3" type="radio" value="2" /></td>
-                        <td><input name="o3" id="o3" type="radio" value="1" /></td>
-                        <td><input name="o3" id="o3" type="radio" value="0" /></td>
+                        <td><input name="o3" type="radio" value="4" /></td>
+                        <td><input name="o3" type="radio" value="3" /></td>
+                        <td><input name="o3" type="radio" value="2" /></td>
+                        <td><input name="o3" type="radio" value="1" /></td>
+                        <td><input name="o3" type="radio" value="0" /></td>
                     </tr>
                     <tr>
                         <th>I am quick to understand things.</th>
-                        <td><input name="o4" id="o4" type="radio" value="4" /></td>
-                        <td><input name="o4" id="o4" type="radio" value="3" /></td>
-                        <td><input name="o4" id="o4" type="radio" value="2" /></td>
-                        <td><input name="o4" id="o4" type="radio" value="1" /></td>
-                        <td><input name="o4" id="o4" type="radio" value="0" /></td>
+                        <td><input name="o4" type="radio" value="4" /></td>
+                        <td><input name="o4" type="radio" value="3" /></td>
+                        <td><input name="o4" type="radio" value="2" /></td>
+                        <td><input name="o4" type="radio" value="1" /></td>
+                        <td><input name="o4" type="radio" value="0" /></td>
                     </tr>
                     <tr>
                         <th>I often spend time reflecting on things.</th>
-                        <td><input name="o5" id="o5" type="radio" value="4" /></td>
-                        <td><input name="o5" id="o5" type="radio" value="3" /></td>
-                        <td><input name="o5" id="o5" type="radio" value="2" /></td>
-                        <td><input name="o5" id="o5" type="radio" value="1" /></td>
-                        <td><input name="o5" id="o5" type="radio" value="0" /></td>
+                        <td><input name="o5" type="radio" value="4" /></td>
+                        <td><input name="o5" type="radio" value="3" /></td>
+                        <td><input name="o5" type="radio" value="2" /></td>
+                        <td><input name="o5" type="radio" value="1" /></td>
+                        <td><input name="o5" type="radio" value="0" /></td>
                     </tr>
-
-
+                    <!-- Conscientiousness -->
+                    <tr>
+                        <th>I am always prepared.</th>
+                        <td><input name="c1" type="radio" value="4" /></td>
+                        <td><input name="c1" type="radio" value="3" /></td>
+                        <td><input name="c1" type="radio" value="2" /></td>
+                        <td><input name="c1" type="radio" value="1" /></td>
+                        <td><input name="c1" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I pay attention to details.</th>
+                        <td><input name="c2" type="radio" value="4" /></td>
+                        <td><input name="c2" type="radio" value="3" /></td>
+                        <td><input name="c2" type="radio" value="2" /></td>
+                        <td><input name="c2" type="radio" value="1" /></td>
+                        <td><input name="c2" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I get chores done right away.</th>
+                        <td><input name="c3" type="radio" value="4" /></td>
+                        <td><input name="c3" type="radio" value="3" /></td>
+                        <td><input name="c3" type="radio" value="2" /></td>
+                        <td><input name="c3" type="radio" value="1" /></td>
+                        <td><input name="c3" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I like to plan my day.</th>
+                        <td><input name="c4" type="radio" value="4" /></td>
+                        <td><input name="c4" type="radio" value="3" /></td>
+                        <td><input name="c4" type="radio" value="2" /></td>
+                        <td><input name="c4" type="radio" value="1" /></td>
+                        <td><input name="c4" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I like my room clean and I know where I leave my things.</th>
+                        <td><input name="c5" type="radio" value="4" /></td>
+                        <td><input name="c5" type="radio" value="3" /></td>
+                        <td><input name="c5" type="radio" value="2" /></td>
+                        <td><input name="c5" type="radio" value="1" /></td>
+                        <td><input name="c5" type="radio" value="0" /></td>
+                    </tr>
+                    <!-- Extraversion  -->
+                    <tr>
+                        <th>I am the life of the party.</th>
+                        <td><input name="e1" type="radio" value="4" /></td>
+                        <td><input name="e1" type="radio" value="3" /></td>
+                        <td><input name="e1" type="radio" value="2" /></td>
+                        <td><input name="e1" type="radio" value="1" /></td>
+                        <td><input name="e1" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I feel comfortable around people.</th>
+                        <td><input name="e2" type="radio" value="4" /></td>
+                        <td><input name="e2" type="radio" value="3" /></td>
+                        <td><input name="e2" type="radio" value="2" /></td>
+                        <td><input name="e2" type="radio" value="1" /></td>
+                        <td><input name="e2" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I start conversations.</th>
+                        <td><input name="e3" type="radio" value="4" /></td>
+                        <td><input name="e3" type="radio" value="3" /></td>
+                        <td><input name="e3" type="radio" value="2" /></td>
+                        <td><input name="e3" type="radio" value="1" /></td>
+                        <td><input name="e3" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I dont mind being the center of attention.</th>
+                        <td><input name="e4" type="radio" value="4" /></td>
+                        <td><input name="e4" type="radio" value="3" /></td>
+                        <td><input name="e4" type="radio" value="2" /></td>
+                        <td><input name="e4" type="radio" value="1" /></td>
+                        <td><input name="e4" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I recharge energy from socializing.</th>
+                        <td><input name="e5" type="radio" value="4" /></td>
+                        <td><input name="e5" type="radio" value="3" /></td>
+                        <td><input name="e5" type="radio" value="2" /></td>
+                        <td><input name="e5" type="radio" value="1" /></td>
+                        <td><input name="e5" type="radio" value="0" /></td>
+                    </tr>
+                    <!-- Agreeableness  -->
+                    <tr>
+                        <th>I am interested in people.</th>
+                        <td><input name="a1" type="radio" value="4" /></td>
+                        <td><input name="a1" type="radio" value="3" /></td>
+                        <td><input name="a1" type="radio" value="2" /></td>
+                        <td><input name="a1" type="radio" value="1" /></td>
+                        <td><input name="a1" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I sympathize with others feelings.</th>
+                        <td><input name="a2" type="radio" value="4" /></td>
+                        <td><input name="a2" type="radio" value="3" /></td>
+                        <td><input name="a2" type="radio" value="2" /></td>
+                        <td><input name="a2" type="radio" value="1" /></td>
+                        <td><input name="a2" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I find it hard to say no.</th>
+                        <td><input name="a3" type="radio" value="4" /></td>
+                        <td><input name="a3" type="radio" value="3" /></td>
+                        <td><input name="a3" type="radio" value="2" /></td>
+                        <td><input name="a3" type="radio" value="1" /></td>
+                        <td><input name="a3" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I sometimes prioritize others needs over my own.</th>
+                        <td><input name="a4" type="radio" value="4" /></td>
+                        <td><input name="a4" type="radio" value="3" /></td>
+                        <td><input name="a4" type="radio" value="2" /></td>
+                        <td><input name="a4" type="radio" value="1" /></td>
+                        <td><input name="a4" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>Friends describe me as caring with a soft heart.</th>
+                        <td><input name="a5" type="radio" value="4" /></td>
+                        <td><input name="a5" type="radio" value="3" /></td>
+                        <td><input name="a5" type="radio" value="2" /></td>
+                        <td><input name="a5" type="radio" value="1" /></td>
+                        <td><input name="a5" type="radio" value="0" /></td>
+                    </tr>
+                    <!-- Neuroticism  -->
+                    <tr>
+                        <th>I get stressed out easily.</th>
+                        <td><input name="n1" type="radio" value="4" /></td>
+                        <td><input name="n1" type="radio" value="3" /></td>
+                        <td><input name="n1" type="radio" value="2" /></td>
+                        <td><input name="n1" type="radio" value="1" /></td>
+                        <td><input name="n1" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I often get depressed.</th>
+                        <td><input name="n2" type="radio" value="4" /></td>
+                        <td><input name="n2" type="radio" value="3" /></td>
+                        <td><input name="n2" type="radio" value="2" /></td>
+                        <td><input name="n2" type="radio" value="1" /></td>
+                        <td><input name="n2" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I have frequent mood swings.</th>
+                        <td><input name="n3" type="radio" value="4" /></td>
+                        <td><input name="n3" type="radio" value="3" /></td>
+                        <td><input name="n3" type="radio" value="2" /></td>
+                        <td><input name="n3" type="radio" value="1" /></td>
+                        <td><input name="n3" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I worry about things other people dont worry as much about.</th>
+                        <td><input name="n4" type="radio" value="4" /></td>
+                        <td><input name="n4" type="radio" value="3" /></td>
+                        <td><input name="n4" type="radio" value="2" /></td>
+                        <td><input name="n4" type="radio" value="1" /></td>
+                        <td><input name="n4" type="radio" value="0" /></td>
+                    </tr>
+                    <tr>
+                        <th>I get irritated, angry easily.</th>
+                        <td><input name="n5" type="radio" value="4" /></td>
+                        <td><input name="n5" type="radio" value="3" /></td>
+                        <td><input name="n5" type="radio" value="2" /></td>
+                        <td><input name="n5" type="radio" value="1" /></td>
+                        <td><input name="n5" type="radio" value="0" /></td>
+                    </tr>
 
                 </tbody>
 
@@ -82,15 +248,63 @@
 
         </div>
 
-
     </div>
 
-    <div class="text-center">
+    <div id="btn" class="text-center">
         <button onclick="displayResults()" class="btn btn-dark">Submit</button>
     </div>
 
-    <div class="pt-5 d-flex justify-content-center">
+    <div id="results" class="d-none py-5 d-flex justify-content-center row">
         <div id="openness"></div>
+        <p class="px-5 text-center">Those who score high on Openness to experience are perceived as
+            creative and
+            artistic.
+            They prefer
+            variety and value independence. They are curious about their surroundings and enjoy traveling and
+            learning new things.
+
+            People who score low on Openness to experience prefer routine. They are uncomfortable with change and
+            trying new things so they prefer the familiar over the unknown. As they are practical people, they often
+            find it difficult to think creatively or abstractly.</p>
+        <div id="conscientiousness"></div>
+        <p class="px-5 text-center">Those who score high on Conscientiousness can be described as
+            organized,
+            disciplined, detail-oriented, thoughtful, and careful. They also have good impulse control, which allows
+            them to complete tasks and achieve goals.
+
+            Those who score low on Conscientiousness may struggle with impulse control, leading to difficulty in
+            completing tasks and fulfilling goals.
+
+            They tend to be more disorganized and may dislike too much structure. They may also engage in more impulsive
+            and careless behavior.</p>
+        <div id="extraversion"></div>
+        <p class="px-5 text-center">Those high on extraversion are generally assertive, sociable,
+            fun-loving, and
+            outgoing. They thrive in social situations and feel comfortable voicing their opinions. They tend to gain
+            energy and become excited from being around others.
+
+            Those who score low in extraversion are often referred to as introverts. These people tend to be more
+            reserved and quieter. They prefer listening to others rather than needing to be heard.
+
+            Introverts often need periods of solitude in order to regain energy as attending social events can be very
+            tiring for them. Of importance to note is that introverts do not necessarily dislike social events, but
+            instead find them tiring.</p>
+        <div id="agreeableness"></div>
+        <p class="px-5 text-center">Those high in agreeableness can be described as soft-hearted, trusting,
+            and
+            well-liked. They are sensitive to the needs of others and are helpful and cooperative. People regard them as
+            trustworthy and altruistic.
+
+            Those low in agreeableness may be perceived as suspicious, manipulative, and uncooperative. They may be
+            antagonistic when interacting with others, making them less likely to be well-liked and trusted.
+        </p>
+        <div id="neuroticism"></div>
+        <p class="px-5 text-center">Those who score high on neuroticism often feel anxious, insecure and self-pitying.
+            They are often perceived as moody and irritable. They are prone to excessive sadness and low self-esteem.
+
+            Those who score low on neuroticism are more likely to calm, secure and self-satisfied. They are less likely
+            to be perceived as anxious or moody. They are more likely to have high self-esteem and remain resilient.
+        </p>
     </div>
 
 </body>
